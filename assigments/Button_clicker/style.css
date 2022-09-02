@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: gray;
+    margin: 0px 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 0 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+}
+
+.maincontent {
+    height: 900px;
+    width: 800px;
+    margin-left: 250px;
+
+}
+
+.side-content {
+    height: 900px;
+    width: 400px;
+    margin-right: 250px;
+}
+
+.word-card {
+    border: 2px solid black;
+    height: 400px;
+    width: auto;
+    margin: 50px 0px;
+    padding: 25px;
+}
+
+.word-card {
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.add-def {
+    border: 2px solid black;
+    height: 400px;
+    width: auto;
+    margin: 50px 0px;
+    padding: 25px;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.word-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.word-card button {
+    margin-top: 10px;
+}
+
+.add-def button {
+    margin-top: 10px;
+}
