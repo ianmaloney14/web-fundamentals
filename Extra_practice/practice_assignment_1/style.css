@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    background-color: lightblue;
+    border: 2px solid black;
+    display: inline-block;
+    justify-content: center;
+    height: 900px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.content {
+    display: inline-block;
+}
+
+.content img {
+    height: 150px;
+
+}
+
+.like-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.like-btns {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-evenly;
+}

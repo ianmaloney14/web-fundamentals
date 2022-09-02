@@ -1,0 +1,26 @@
+.header {
+    background-color: black;
+    color: aqua;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.completed-projects {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.contact-us {
+    background-color: aqua;
+    color: purple;
+    font-size: 15px;
+    font-family: monospace;
+    text-decoration: underline;
+    text-align: right;
+}

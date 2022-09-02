@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+
+        .body h1 {
+            color:#009879;
+            font-size: 40px;
+        }
+
+        .body h2 {
+            color:#009879;
+            font-size: 28px;
+        }
+
+        .body label {
+            color:#009879;
+            font-size: 28px;
+            
+        }
+
+        .content-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+    
+        .content-table tr th {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .content-table th {
+            padding: 12px 15px;
+        }
+        .content-table td {
+            padding: 12px 15px;
+        }
+        .content-table tbody tr {
+            border-bottom: 1px solid #dddddd ;
+        }
+        .content-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3 ;
+        }
+        .content-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+        .content-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879
+        }
+
+
+
+    </style>
+
+
+</head>
+
+
+<body class="body">
+    <h1>Ian Maloney</h1>
+    <img src="Profile_picture.png" alt="Ian Maloney profile picture">
+    <div>
+        <img src="github_icon.png" alt="github icon">
+        <a href="https://github.com/ianmaloney14">My Github</a>
+        <img src="linkedin_icon.png" alt="linkedin icon">
+        <a href="https://www.linkedin.com/in/ian-maloney-561b07236/">My LinkedIn</a>
+        <img src="email-icon.png" alt="email icon">
+        <a href="">My Email</a>
+    </div>
+    <div>
+        <label><b>Technologies:</b></label>
+    </div>
+    <table class="content-table">
+        <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>Javascript</th>
+            <th>Database</th>
+            <th>Concepts</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>Django</td>
+            <td>Express</td>
+            <td>MySQL</td>
+            <td>AJAX</td>
+        </tr>
+        <tr class="active-row">
+            <td>CSS3</td>
+            <td>Flask</td>
+            <td>Mongoose</td>
+            <td>MongoDB</td>
+            <td>OOP</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>Unittest</td>
+            <td>React</td>
+            <td> </td>
+            <td>REST</td>
+        </tr>
+    </table>
+    <h2>Contact Me</h2>
+    <div>
+        <Label>Name: </Label>
+        <input type="text">
+        <label>Email: </label>
+        <input type="text">
+    </div>
+    <div>
+        <label>Message:</label>
+        <textarea name="message" cols="20" rows="3"></textarea>
+    </div>
+</body>
+</html>

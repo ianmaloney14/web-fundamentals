@@ -1,0 +1,29 @@
+.container {
+    margin: auto;
+    height: 600px;
+    width: 960px;
+    background-color: rgb(84, 195, 231);
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.boxes {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(41, 194, 41);
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+p {
+    color: white;
+}
+h1 {
+    color: white;
+}
